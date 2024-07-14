@@ -2,7 +2,6 @@ from django.http import JsonResponse
 from django.shortcuts import render
 
 
-# Create your views here.
 def travel_tip(request):
     dest = request.GET.get("des", None)
     if dest:
